@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-northeast-1"
-  access_key = "AKIA5TTUIH2YGHV6DH4B"
-  secret_key = "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"
+  access_key = "AKIA5TTUIH2YHIL7R2FE"
+  secret_key = "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"
 }
 
 resource "aws_instance" "dockervm" {
