@@ -7,8 +7,8 @@ resource "aws_instance" "dockervm" {
   instance_type = "t2.micro"
 }
 
-resource "aws_ecr_repository" "nikhilecr" {
-  name                 = "nikhilecr"
+resource "aws_ecr_repository" "webapp" {
+  name                 = "webapp"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
