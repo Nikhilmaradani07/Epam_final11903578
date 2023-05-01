@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "dockervm" {
   ami           = "ami-0d0c6a887ce442603"
-  instance_type = "t2.medium"
+  instance_type = "t2.micro"
 }
 
 resource "aws_ecr_repository" "nikhilecr" {
